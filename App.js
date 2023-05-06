@@ -133,5 +133,16 @@ const styles = StyleSheet.create({
 //add novo repos depois de criado
 //git remote add origin https://github.com/Marcolino07/Reactec.git
 
-//
+//add todos os arquivos no commit
+//git add .
+
+
+//verifica o status dos arq a serem commitados
 //git status
+
+//
+//git commit -m "comentario do commit"
+
+//empurrar o codigo no repos
+//git push ou
+//git push -u origin master
