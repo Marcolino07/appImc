@@ -40,7 +40,7 @@ export default function App() {
 			
 			<View style={styles.bloco}>
 				<TouchableOpacity style={styles.btn}>
-					<Text style={styles.btnTxt}>Enviar</Text>
+					<Text style={styles.btnTxt}>Enviar :) </Text>
 				</TouchableOpacity>
 				
 				<TouchableOpacity style={styles.btn}>
