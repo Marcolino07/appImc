@@ -16,25 +16,27 @@ export default function App() {
   function imCalc(){
 
 	  let imc = (parseFloat(peso) / (parseFloat(altura) * parseFloat(altura)));
+	  
+	  imc = imc.toFixed(2);
 
 	  let result = "";
 
-	  if (imc <= 16.9) {
+	  if (imc < 16.9) {
 		  result = "Muito abaixo do peso \n IMC: " + imc;
 	  }
-	  else if ((imc <= 17) && (imc >= 18.4)) {
+	  else if ((imc >= 17) && (imc <= 18.4)) {
 		  result = "Abaixo do peso. \n IMC: " + imc;
 	  }
-	  else if ((imc <= 18.5) && (imc >= 24.9)) {
+	  else if ((imc >= 18.5) && (imc <= 24.9)) {
 		  result = "Peso normal. \n IMC: " + imc;
 	  }
-	  else if ((imc <= 25) && (imc >= 29.9)) {
+	  else if ((imc >= 25) && (imc <= 29.9)) {
 		  result = "Acima do Peso. \n IMC: " + imc;
 	  }
-	  else if ((imc <= 30) && (imc >= 34.9)) {
+	  else if ((imc >= 30) && (imc <= 34.9)) {
 		  result = "Obesidade grau I \n IMC: " + imc;
 	  }
-	  else if ((imc <= 35) && (imc >= 40)) {
+	  else if ((imc >= 35) && (imc <= 40)) {
 		  result = "Obesidade grau II \n IMC: " + imc;
 	  }
 	  else if ((imc > 40)) {
@@ -207,6 +209,7 @@ const styles = StyleSheet.create({
 //add todos os arquivos no commit
 //git add .
 
+
 //verifica o status dos arq a serem commitados
 //git status
 
@@ -216,3 +219,5 @@ const styles = StyleSheet.create({
 //empurrar o codigo no repos
 //git push ou
 //git push -u origin2 master
+
+//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
